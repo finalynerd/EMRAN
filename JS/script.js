@@ -15,3 +15,12 @@ function reveal() {
 }
 
 window.addEventListener("scroll", reveal);
+
+var typed = new typed(".aboutme", {
+
+  String:["This Page is About Me"],
+  typeSpeed:100,
+  backSpeed:100,
+  backDelay:100,
+  loop:true
+})

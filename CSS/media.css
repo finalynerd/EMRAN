@@ -1,0 +1,344 @@
+@media only screen and (max-width: 1320px){}
+@media only screen and (max-width: 550px){
+    header{
+        margin-bottom: 16%;
+    }
+    .container{
+        display: flex;
+        flex-wrap: wrap-reverse;
+    }
+    .arrow{
+        display: none;
+    }
+    .line{
+        display: none;
+    }
+    .skills{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .project{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .about_page{
+        display: flex;
+        flex-direction: column;
+    }
+    .about_title img{
+        display: none;
+    }
+    .about_text{
+        font-size: large;
+        padding: 0 10px;
+    }
+    .education_page{
+        display: flex;
+        flex-wrap: wrap-reverse;
+        padding: 0 25px;
+    }
+    .education_title img{
+        display: none;
+    }
+     .education_text{
+        font-size: large;
+        width: 100%;
+    }
+    .borderT{
+        display: none;
+    }
+    .hobbies_page{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .hobbies_title img{
+        display: none;
+    }
+    .hobbies_text{
+        font-size: large;
+    }
+    .contact{
+        display: none;
+    }
+    .humbarger{
+        display: block;
+        cursor:pointer;
+        }
+        .humbarger .line{
+        width:30px;
+        height:3px;
+        background : #fff;
+        margin: 6px 0;
+        }
+        .navigation{
+            height : 0;
+            position:absolute;
+            top:220px;
+            left:auto;
+            right:0;
+            width:100vw;
+            transition:0.2s;
+            background: #fff;
+            overflow: hidden;
+            }
+            .navigation.active{
+                height: auto;
+                padding: 10px;
+            }
+            .navigation ul{
+            display:flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width:fit-content;
+            margin:20px auto 0 auto;
+            /* text-align: center; */
+            transition:0.2s;
+            opacity: 0;
+            }
+            .navigation.active ul{
+                opacity: 1;
+            }
+
+
+        .conatact_page{
+            width: 80%;
+            padding: 0 40px;
+        }
+        .contacts{
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+        }
+}
+@media only screen and (max-width: 450px){
+
+    header{
+        margin-bottom: 16%;
+    }
+    .container{
+        display: flex;
+        flex-wrap: wrap-reverse;
+    }
+    .name h1{
+            font-size: 2rem;
+            line-height: 40px;
+    }
+    .arrow{
+        display: none;
+    }
+    .line{
+        display: none;
+    }
+    .myskills{
+        display: flex;
+        flex-direction: column;
+    }
+    .skills{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .project{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .about_page{
+        display: flex;
+        flex-direction: column;
+    }
+    .about_title img{
+        display: none;
+    }
+    .about_text{
+        font-size: large;
+        padding: 0 10px;
+    }
+    .education_page{
+        display: flex;
+        flex-wrap: wrap-reverse;
+        padding: 0 25px;
+    }
+    .education_title img{
+        display: none;
+    }
+     .education_text{
+        font-size: large;
+        width: 100%;
+    }
+    .borderT{
+        display: none;
+    }
+    .hobbies_page{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .hobbies_title img{
+        display: none;
+    }
+    .hobbies_text{
+        font-size: large;
+    }
+    .humbarger{
+        display: block;
+        cursor:pointer;
+        }
+        .humbarger .line{
+        width:30px;
+        height:3px;
+        background : #fff;
+        margin: 6px 0;
+        }
+        .conatact_page{
+            width: 80%;
+            padding: 0 40px;
+        }
+        .contacts{
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+        }
+
+
+}
+@media only screen and (max-width: 927px){
+    .container{
+        display: flex;
+        flex-wrap: wrap-reverse;
+        width: 100%;
+    }
+    .arrow{
+        display: none;
+    }
+    .line{
+        display: none;
+    }
+    .skills{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .project{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .about_page{
+        display: flex;
+        flex-direction: column;
+    }
+    .about_title img{
+        display: none;
+    }
+    .about_text{
+        font-size: large;
+    }
+    .education_page{
+        display: flex;
+        flex-wrap: wrap-reverse;
+    }
+    .education_title img{
+        display: none;
+    }
+     .education_text{
+        font-size: large;
+    }
+    .borderT{
+        display: none;
+    }
+    .hobbies_page{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .hobbies_title img{
+        display: none;
+    }
+    .hobbies_text{
+        font-size: large;
+    }
+    .humbarger{
+        display: block;
+        cursor:pointer;
+        }
+        .humbarger .line{
+        width:30px;
+        height:3px;
+        background : #fff;
+        margin: 6px 0;
+        }
+
+}
+@media only screen and (max-width: 380px){}
+@media screen and (max-width: 800px) {}
+ @media screen and (max-width: 600px) {
+    .container{
+        display: flex;
+        flex-wrap: wrap-reverse;
+        margin-bottom: 15%;
+    }
+    .arrow{
+        display: none;
+    }
+    .line{
+        display: none;
+    }
+    .myskills{
+        margin-bottom: 15%;
+    }
+    .skills{
+        display: grid;
+        grid-template-columns: auto auto;
+        
+    }
+    .projects{
+        margin-bottom: 15%;
+    }
+    .project{
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 30px;
+        padding: 0 30px;
+    }
+    .about_page{
+        display: flex;
+        flex-direction: column;
+    }
+    .about_title img{
+        display: none;
+    }
+    .about_text{
+        font-size: large;
+    }
+    .education_page{
+        display: flex;
+        flex-wrap: wrap-reverse;
+    }
+    .education_title img{
+        display: none;
+    }
+     .education_text{
+        font-size: large;
+    }
+    .borderT{
+        display: none;
+    }
+    .hobbies_page{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .hobbies_title img{
+        display: none;
+    }
+    .hobbies_text{
+        font-size: large;
+    }
+    .humbarger{
+        display: block;
+        cursor:pointer;
+        }
+        .humbarger .line{
+        width:30px;
+        height:3px;
+        background : #fff;
+        margin: 6px 0;
+        }
+
+ }
