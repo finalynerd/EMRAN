@@ -33,7 +33,11 @@ html{
     text-decoration: none;
 }
 main{
-    background: #000000;
+    /* background: linear-gradient(#7F7FD5, #91EAE4); */
+    /* background: linear-gradient(#3E5151, #DECBA4); */
+    background: linear-gradient(#0F3443,  #fcfcfc);
+    background: #E4EfE9;
+    
     /* background-color: rgb(30 41 59); */
     /* background-color: rgb(15 23 42); */
     scroll-behavior: smooth;
@@ -41,10 +45,11 @@ main{
 }
 header{
     width: 100%;
-    background: rgba(0, 0, 0, 0.3) ;
+    background: transparent;
     position: fixed;
     backdrop-filter: blur(5px);
     z-index: 5;
+    border-bottom: 2px solid rgb(#93A5CF, #E4EfE9);
 
 }
 ul{
@@ -58,24 +63,25 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: #fff;
+    color: #0F3443;
     font-family:'Poppins','Lora';
     padding: 20px;
     line-height: 3rem;
     margin: 0 15px;
 }
 nav a{
-    color: #fff;
+    color: #0F3443;
     transition: 0.2s ease;
+    font-weight: bold;
 }
 nav a:hover{
-    color: rgb(100 116 139);
+  color: rgb(29, 34, 41);
 }
 
 .contact {
     text-decoration: none;
-    border: 2px solid rgb(100 116 139);
-    color: rgb(100 116 139);
+    border: 2px solid rgb(29 34 41);
+    color: rgb(29, 34, 41);
     padding: 0px 20px;
     border-radius: 25px;
     outline: none;
@@ -93,7 +99,7 @@ nav a:hover{
     height: 100%;
     /* border-top: 1px solid #fff;
     border-bottom: 1px solid #fff; */
-    background-color: rgb(2 132 199);
+    background-color: rgb(0, 0, 0);
     border: none;
     transition: all 1s;
     border-radius: 20px;
@@ -121,6 +127,8 @@ nav a:hover{
     padding: 0 40px;
     margin: auto;
     gap: 40px;
+    background: linear-gradient(#A1C4FD  ,#E4EfE9) ;
+    /* background: linear-gradient(#93A5CF   ,#E4EfE9) ; */
   }
   .profile img{
     width: 400px;
@@ -131,7 +139,7 @@ nav a:hover{
   .line{
     width: 3px;
     height: 200px;
-    background-color:rgb(100 116 139) ;
+    background-color:rgb(29 34 41) ;
   }
   .name{
     font-size: 2rem;
@@ -139,13 +147,13 @@ nav a:hover{
   }
   .name p{
     font-family: 'poppins','Lora','Rubik';
-    color: rgb(100 116 139);
+    color: rgb(29, 34, 41);
     text-transform: capitalize;
     font-size: 1rem;
   }
   .name h1{
     /* font-family: 'Rubik','Lora','Poppins'; */
-    color: #fff;
+    color: rgb(29, 34, 41);
     font-family: 'mine';
     font-weight: bold;
     font-style: normal;
@@ -154,8 +162,8 @@ nav a:hover{
   }
   .arrow img{
     width: 40px;
-    fill: #fff;
-    filter: grayscale(1);
+    /* fill: #fff; */
+    filter: invert(100%);
   }
   .arrow{
     margin: auto;
@@ -174,11 +182,11 @@ nav a:hover{
   height: 100vh;
   justify-content: center;
   align-items: center;
-  color: rgb(100 116 139);
+  color: rgb(29, 34, 41);
   row-gap: 50px;
 }
 .myskills h1{
-  color: #fff;
+  color: rgb(29, 34, 41);
   font-family: 'mine';
   display: block;
   font-size: 2rem;
@@ -199,7 +207,7 @@ nav a:hover{
   background-color: transparent;
   border-top: 2px solid rgb(100 116 139);
   border-right: 2px solid rgb(100 116 139);
-  color: rgb(100 116 139);
+  color: rgb(29, 34, 41);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -216,7 +224,7 @@ nav a:hover{
 .html::before{
   content: '';
   position: absolute;
-  background-color: rgb(100 116 139);
+  background-color: rgb(29 34 41);
   top: 0;
   left: 0;
   width: 100%;
@@ -247,7 +255,7 @@ nav a:hover{
   background-color: transparent;
   border-bottom: 2px solid rgb(100 116 139);
   border-right: 2px solid rgb(100 116 139);
-  color: rgb(100 116 139);
+  color: rgb(29, 34, 41);
   display: flex;
   font-family: 'mine';
   justify-content: center;
@@ -263,7 +271,7 @@ nav a:hover{
 .css::before{
   content: '';
   position: absolute;
-  background-color: rgb(100 116 139);
+  background-color: rgb(29 34 41);
   top: 0;
   left: 0;
   width: 100%;
@@ -293,7 +301,7 @@ nav a:hover{
   background-color: transparent;
   border-top: 2px solid rgb(100 116 139);
   border-right: 2px solid rgb(100 116 139);
-  color: rgb(100 116 139);
+  color: rgb(29, 34, 41);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -309,7 +317,7 @@ nav a:hover{
 .javascript::before{
   content: '';
   position: absolute;
-  background-color: rgb(100 116 139);
+  background-color: rgb(29 34 41);
   top: 0;
   left: 0;
   width: 100%;
@@ -339,7 +347,7 @@ nav a:hover{
   background-color: transparent;
   border-bottom: 2px solid rgb(100 116 139);
   border-right: 2px solid rgb(100 116 139);
-  color: rgb(100 116 139) ;
+  color: rgb(29, 34, 41);
   display: flex;
   flex-direction: column;
   font-family: 'mine';
@@ -355,7 +363,7 @@ nav a:hover{
 .php::before{
   content: '';
   position: absolute;
-  background-color: rgb(100 116 139);
+  background-color: rgb(29 34 41);
   top: 0;
   left: 0;
   width: 100%;
@@ -382,15 +390,17 @@ nav a:hover{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    color: #fff;
+    color: rgb(29, 34, 41);
     /* margin-top: 10%; */
     /* background-color: #fff; */
     height: 100vh;
     position: relative;
+    width: 70%;
+    margin: auto;
   }
   .about_page img{
     width: 20%;
-    filter: invert(100%);
+    /* filter: invert(100%); */
     position: absolute;
     top: 50%;
     left: 20.5%;
@@ -405,7 +415,7 @@ nav a:hover{
   .about_text{
     width: 500px;
     font-family: 'poppins';
-    color: rgb(100 116 139);
+    color: rgb(29, 34, 41);
   }
   .aboutc{
     text-align: center;
@@ -420,14 +430,14 @@ nav a:hover{
 .border{
   width: 50%;
   height: 4px;
-  background-color: rgb(100 116 139);
+  background-color: rgb(29 34 41);
   transition: all ease-in-out;
   animation: border 2s  linear infinite;
   animation-iteration-count: infinite;
 /* animation-direction: alternate; */
 animation-direction: alternate;
 animation-timing-function: ease-in-out;
-opacity: 0.1;
+opacity: 0.2;
 }
 
 @keyframes border{
@@ -443,7 +453,7 @@ opacity: 0.1;
   width: 4px;
   height: 50%;
   margin: auto;
-  background-color: rgb(100 116 139);
+  background-color: rgb(29 34 41);
   transition: all ease-in-out;
   animation: borderT 2s  linear infinite;
   animation-iteration-count: infinite;
@@ -469,14 +479,17 @@ opacity: 0.1;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    color: #fff;
+    color: rgb(29 34 41);
     height: 100vh;
-    padding: 0 100px;
+    /* padding: 0 100px; */
     position: relative;
+    width: 70%;
+    gap: 20px;
+    margin: auto;
   }
   .education_page img{
     width: 20%;
-    filter: invert(100%);
+    /* filter: invert(100%); */
     position: absolute;
     top: 50%;
     left: 77%;
@@ -486,7 +499,7 @@ opacity: 0.1;
   .education_text{
     width: 500px;
     font-family: 'poppins';
-    color: rgb(100 116 139);
+    color: rgb(29, 34, 41);
   }
   .education_title{
     font-size: 4rem;
@@ -498,13 +511,16 @@ opacity: 0.1;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    color: #fff;
+    color: rgb(29, 34, 41);
     height: 100vh;
     position: relative;
+    width: 70%;
+    gap: 20px;
+    margin: auto;
   }
   .hobbies_page img{
     width: 20%;
-    filter: invert(100%);
+    /* filter: invert(100%); */
     position: absolute;
     top: 50%;
     left: 23%;
@@ -514,7 +530,7 @@ opacity: 0.1;
   .hobbies_text{
     width: 500px;
     font-family: 'poppins';
-    color: rgb(100 116 139);
+    color: rgb(29, 34, 41);
   }
   .hobbies_title{
     font-size: 4rem;
@@ -527,15 +543,17 @@ opacity: 0.1;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: #fff;
+    color: rgb(29, 34, 41);
     margin-top: 5%;
     height: 100vh;
   }
   .project{
     display: grid;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: auto auto auto auto ;
     gap: 20px;
-    padding: 0 100px;
+    /* padding: 0 100px; */
+    width: 70%;
+    margin: auto;
   }
   .project1{
     /* width: 20%; */
@@ -545,11 +563,10 @@ opacity: 0.1;
     text-align: center;
     border-radius: 10px;
     font-family: 'poppins';
-    color: rgb(100 116 139);
+    color: rgb(29, 34, 41);
   }
   .project1 h1{
-    background-color: rgb(100 116 139);
-    color: #fff;
+    color: rgb(29, 34, 41);
     padding: 15px;
   }
   .project1 img{
@@ -562,15 +579,14 @@ opacity: 0.1;
     text-align: center;
     border-radius: 10px;
     font-family: 'poppins';
-    color: rgb(100 116 139);
+    color: rgb(29, 34, 41);
   }
   .project2 img{
     width: 250px;
     object-fit: cover;
   }
   .project2 h1{
-    background-color: rgb(100 116 139);
-    color: #fff;
+    color: rgb(29, 34, 41);
     padding: 15px;
   }
   .project3{
@@ -580,7 +596,7 @@ opacity: 0.1;
     text-align: center;
     border-radius: 10px;
     font-family: 'poppins';
-    color: rgb(100 116 139);
+    color: rgb(29, 34, 41);
   }
   .project4{
     /* width: 20%; */
@@ -589,7 +605,7 @@ opacity: 0.1;
     text-align: center;
     border-radius: 10px;
     font-family: 'poppins';
-    color: rgb(100 116 139);
+    color: rgb(29, 34, 41);
   }
   .project_title{
     font-size: 1.5rem;
@@ -629,7 +645,7 @@ opacity: 0.1;
   max-width: 700px;
   margin: auto;
   /* background-color: #fff; */
-  border: 2px solid rgb(100 116 139);
+  border: 2px solid rgb(29, 34, 41);
   border-radius: 20px 0 20px 0;
   padding: 40px;
 }
@@ -650,13 +666,13 @@ opacity: 0.1;
 .contact_title h1{
   font-family: 'mine';
   font-size: 2rem;
-  color: rgb(100 116 139);
+  color: rgb(29, 34, 41);
   cursor: pointer;
   border-bottom: 1px solid rgb(100 116 139);
 }
 .contact_title p{
   font-family: 'poppins';
-  color: rgb(100 116 139);
+  color: rgb(29, 34, 41);
   font-size: 0.8rem;
 }
 .contact_inputs{
@@ -672,7 +688,7 @@ opacity: 0.1;
   border: none;
   border-bottom: 2px solid rgb(100 116 139);
   background: transparent;
-  color: rgb(100 116 139);
+  color: rgb(29, 34, 41);
 
 }
 
@@ -687,12 +703,12 @@ opacity: 0.1;
   padding: 0 15px;
 }
 .icons a{
-  color: rgb(100 116 139);
+  color: rgb(29, 34, 41);
   transition: 2s linear ease-in-out;
 }
 .icons a:hover{
   transform: translateY(-5px);
-  color: rgb(141, 189, 255);
+  color: rgb(25, 48, 80);
 }
 
   footer{
