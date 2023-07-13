@@ -125,13 +125,13 @@ nav a:hover{
     align-items: center;
     height: 100vh;
     padding: 0 40px;
-    margin: auto;
+    margin: 20px auto;
     gap: 40px;
     background: linear-gradient(#A1C4FD  ,#E4EfE9) ;
     /* background: linear-gradient(#93A5CF   ,#E4EfE9) ; */
   }
   .profile img{
-    width: 400px;
+    width: 500px;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
     margin: auto;
