@@ -1,9 +1,6 @@
-@media only screen and (max-width: 1320px){}
-@media only screen and (max-width: 550px){
-    header{
-        margin-bottom: 16%;
-    }
-    .container{
+/* @media only screen and (max-width: 1320px){}
+@media only screen and (max-width: 550px){ */
+    /* .container{
         display: flex;
         flex-wrap: wrap-reverse;
     }
@@ -59,8 +56,8 @@
     }
     .contact{
         display: none;
-    }
-    .humbarger{
+    } */
+    /* .humbarger{
         display: block;
         cursor:pointer;
         }
@@ -93,10 +90,8 @@
             width:fit-content;
             margin:20px auto 0 auto;
             /* text-align: center; */
-            transition:0.2s;
-            opacity: 0;
-            }
-            .navigation.active ul{
+            
+            /* .navigation.active ul{
                 opacity: 1;
             }
 
@@ -109,16 +104,14 @@
             display: flex;
             flex-wrap: wrap;
             flex-direction: column;
-        }
-}
-@media only screen and (max-width: 450px){
+        } */
 
-    header{
-        margin-bottom: 16%;
-    }
+/* @media all and (min-width: 400px) and (max-width: 768px){
+
     .container{
         display: flex;
         flex-wrap: wrap-reverse;
+        margin-bottom: 15%;
     }
     .name h1{
             font-size: 2rem;
@@ -200,12 +193,13 @@
         }
 
 
-}
-@media only screen and (max-width: 927px){
+} */
+/* @media only screen and (max-width: 927px){
     .container{
         display: flex;
         flex-wrap: wrap-reverse;
         width: 100%;
+        margin-bottom: 15%;
     }
     .arrow{
         display: none;
@@ -224,6 +218,7 @@
     .about_page{
         display: flex;
         flex-direction: column;
+        margin-top: 15%;
     }
     .about_title img{
         display: none;
@@ -265,8 +260,8 @@
         margin: 6px 0;
         }
 
-}
-@media only screen and (max-width: 380px){}
+} */
+/* @media only screen and (max-width: 380px){}
 @media screen and (max-width: 800px) {}
  @media screen and (max-width: 600px) {
     .container{
@@ -341,4 +336,111 @@
         margin: 6px 0;
         }
 
+ } */
+
+
+
+
+ @media all and (min-width: 1024px) and (max-width: 1280px) { }
+
+@media all and (min-width: 768px) and (max-width: 1024px) { }
+
+@media all and (min-width: 480px) and (max-width: 768px) {
+
  }
+
+@media all and (min-width: 200px) and (max-width: 768px) { 
+   .container{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    /* margin-bottom: 15%; */
+   }
+   .container .name h1{
+    font-size: 45px;
+   }
+   .line{
+    display: none;
+   }
+   .arrow{
+    display: none;
+   }
+   .myskills{
+   display: flex;
+   flex-direction: column;
+   padding: 0 20px;
+   }
+   .skills{
+    display: grid;
+    grid-template-columns: auto auto;
+    /* flex-direction: column; */
+   }
+   .myskills .ive{
+    font-size: 10px;
+    padding: 0 20px;
+    width: 100%;
+    text-align: center;
+   }
+   .skills .html,.css,.javascript,.php{
+    width: 150px;
+  height: 150px;
+   }
+   .about_page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    width: 100%;
+   }
+   .about_text{
+    padding: 0 20px;
+    font-size: 15px;
+   width: 100%;
+   }
+   .conatact_page{
+    display: flex;
+    flex-direction: column;
+   }
+   .contacts{
+    display: flex;
+    flex-direction: column;
+   }
+   .humbarger{
+    display: block;
+    cursor:pointer;
+    }
+    .humbarger .line{
+    width:30px;
+    height:3px;
+    background : #fff;
+    margin: 6px 0;
+    }
+    .navigation{
+        height : 0;
+        position:absolute;
+        top:220px;
+        left:auto;
+        right:0;
+        width:100vw;
+        transition:0.2s;
+        background: #fff;
+        overflow: hidden;
+        }
+        .navigation.active{
+            height: auto;
+            padding: 10px;
+        }
+        .navigation ul{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width:fit-content;
+        margin:20px auto 0 auto;
+        text-align: center;
+        
+        .navigation.active ul{
+            opacity: 1;
+        }
+}
+}
